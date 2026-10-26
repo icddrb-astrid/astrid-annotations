@@ -1,5 +1,5 @@
 {
-  "schema": 2,
+  "schema": 3,
   "image": "images/001_disk_diffusion.png",
   "sha256": "0951f29cd8cec2e9cebcd4a4d598179772bedf72399492f6de8e81226a67f583",
   "size": [
@@ -142,15 +142,12 @@
       "refine": "rim"
     }
   },
-  "scale": {
-    "mm_per_px": 0.03400988389200453,
-    "source": "disks",
-    "n_disks": 4
-  },
+  "scale": null,
   "shapes": [
     {
       "id": "59a7f54d",
       "type": "disk",
+      "model": 1,
       "geom": {
         "cx": 1545.1240250469652,
         "cy": 890.4233396684102,
@@ -166,6 +163,7 @@
     {
       "id": "2d2ce23a",
       "type": "disk",
+      "model": 1,
       "geom": {
         "cx": 2564.601312980964,
         "cy": 948.0494097087849,
@@ -181,6 +179,7 @@
     {
       "id": "c97b7afa",
       "type": "disk",
+      "model": 1,
       "geom": {
         "cx": 2050.3434738404812,
         "cy": 1528.7102456665343,
@@ -196,6 +195,7 @@
     {
       "id": "063bc75e",
       "type": "disk",
+      "model": 1,
       "geom": {
         "cx": 2610.1181001674513,
         "cy": 2057.587448455382,
@@ -210,7 +210,8 @@
     },
     {
       "id": "a1f2ce4f",
-      "type": "zone",
+      "type": "area_of_interest",
+      "model": 1,
       "geom": {
         "cx": 1550.1802236642106,
         "cy": 890.0446030880581,
@@ -225,7 +226,8 @@
     },
     {
       "id": "7f28d146",
-      "type": "zone",
+      "type": "area_of_interest",
+      "model": 1,
       "geom": {
         "cx": 2557.427019722617,
         "cy": 950.3338433698423,
@@ -240,7 +242,8 @@
     },
     {
       "id": "42b92a55",
-      "type": "zone",
+      "type": "area_of_interest",
+      "model": 1,
       "geom": {
         "cx": 2058.9588953287557,
         "cy": 1525.6547880140943,
@@ -255,7 +258,8 @@
     },
     {
       "id": "d2ea43b6",
-      "type": "zone",
+      "type": "area_of_interest",
+      "model": 1,
       "geom": {
         "cx": 2618.1406281038326,
         "cy": 2039.8319547710569,
@@ -271,6 +275,7 @@
     {
       "id": "f82a0940",
       "type": "dish",
+      "model": 1,
       "geom": {
         "cx": 2089.81733901367,
         "cy": 1554.5560376330834,
@@ -286,6 +291,7 @@
     {
       "id": "574a03a1",
       "type": "sticker",
+      "model": 1,
       "geom": {
         "cx": 1422.7211244443738,
         "cy": 2204.3939437943254,
@@ -300,7 +306,8 @@
     },
     {
       "id": "ea890fd1",
-      "type": "zone",
+      "type": "area_of_interest",
+      "model": 1,
       "geom": {
         "cx": 1361.266753050487,
         "cy": 1996.2874359976224,
