@@ -338,7 +338,7 @@
     },
     {
       "id": "a177226f",
-      "type": "normal",
+      "type": "double",
       "model": 2,
       "geom": {
         "cx": 2034.2911694272914,
@@ -354,7 +354,7 @@
     },
     {
       "id": "adbc0dc8",
-      "type": "normal",
+      "type": "astroid",
       "model": 2,
       "geom": {
         "cx": 1468.8885701850515,
